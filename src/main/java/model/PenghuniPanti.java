@@ -2,6 +2,7 @@ package model;
 
 public abstract class PenghuniPanti implements KunjunganKeluarga{
 
+    // ENCAPSULATION
     private final int idPenghuni;
     private final String nama;
     private int usia;
@@ -9,6 +10,7 @@ public abstract class PenghuniPanti implements KunjunganKeluarga{
     private final String jenisKelamin;
     private String kondisi;
 
+    // CONSTRUCTOR
     public PenghuniPanti(int idPenghuni, String nama, int usia, String noTelp,
                          String jenisKelamin, String kondisi) {
         this.idPenghuni = idPenghuni;

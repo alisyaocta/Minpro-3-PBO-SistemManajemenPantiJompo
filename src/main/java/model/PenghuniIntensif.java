@@ -2,6 +2,7 @@ package model;
 
 public class PenghuniIntensif extends PenghuniPanti implements KunjunganKeluarga {
 
+    // ENCAPSULATION
     private String namaPerawat;
     private String kontrolMedis;
     private String jadwalObat;
@@ -9,6 +10,7 @@ public class PenghuniIntensif extends PenghuniPanti implements KunjunganKeluarga
     private static final double biayaDasar = 5_000_000;
     private static final int durasiKunjungan = 60;
 
+    // CONSTRUCTOR
     public PenghuniIntensif(int idPenghuni, String nama, int usia, String noTelp,
             String jenisKelamin, String kondisi, String namaPerawat, String kontrolMedis, String jadwalObat) {
         super(idPenghuni, nama, usia, noTelp, jenisKelamin, kondisi);
@@ -79,5 +81,14 @@ public class PenghuniIntensif extends PenghuniPanti implements KunjunganKeluarga
     @Override
     public double hitungBiayaBulanan() {
         return biayaDasar;
+    }
+    
+    private String hitungJamSelesai(String jam) {
+        String[] bagian = jam.split(":");
+        int totalMenit = Integer.parseInt(bagian[0]) * 60
+                + Integer.parseInt(bagian[1])
+                + getDurasiKunjunganMenit();
+        totalMenit %= 24 * 60;
+        return String.format("%02d:%02d", totalMenit / 60, totalMenit % 60);
     }
 }
