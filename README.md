@@ -172,24 +172,43 @@ Pada menu Update Usia, pengguna perlu memasukkan ID penghuni yang ingin diperbar
 
 <img width="320" height="273" alt="image" src="https://github.com/user-attachments/assets/0dc246ae-32bb-464a-bcfd-b17b0ee625b3" />
 
+MVC (Model, View, Controller) merupakan pola atau struktur dalam pembuatan proyek yang digunakan untuk memisahkan bagian data, tampilan, dan proses pengendalian program. Penerapan MVC bertujuan agar kode program lebih terstruktur, mudah dipahami, serta memudahkan proses pengembangan dan pemeliharaan program.
+
+Pada proyek Sistem Manajemen Panti Jompo Rumah Senja, penerapan MVC dibagi menjadi tiga package, yaitu:
+
+1. Package Model
+
+Package model berisikan class PenghuniPanti, PenghuniIntensif, PenghuniMandiri, dan interface KunjunganKeluarga. Package ini bertugas untuk merepresentasikan, menyimpan, dan mengelola data serta atribut yang berkaitan dengan penghuni panti. Class PenghuniIntensif dan PenghuniMandiri merupakan turunan dari class PenghuniPanti, sehingga dapat menerapkan konsep inheritance dalam pemrograman berorientasi objek dengan mewarisi atribut dan method dari class induknya. Sementara itu, KunjunganKeluarga digunakan sebagai interface yang mendefinisikan perilaku atau method yang berkaitan dengan kunjungan keluarga dan dapat diimplementasikan oleh class yang membutuhkan fungsi tersebut.
+
+2. Package View
+
+Package view berisikan class PantiView yang digunakan untuk menampilkan menu utama, informasi data penghuni, hasil proses, serta pesan yang diberikan oleh sistem kepada pengguna. Dengan adanya package view, proses tampilan program dapat dipisahkan dari logika pengolahan data sehingga struktur program menjadi lebih terorganisir dan mudah dipahami.
+
+3. Package Controller
+
+Package controller berisikan class PantiService yang bertugas sebagai penghubung antara bagian Model dan View, sekaligus mengatur alur proses dalam program. Class PantiService menangani berbagai operasi terhadap data penghuni, seperti menambahkan, menampilkan, memperbarui, menghapus, dan mencari data berdasarkan input yang diberikan oleh pengguna.
+
+4. Package Utility
+
+Package utility berisikan class InputValidasi yang digunakan untuk membantu proses validasi input dari pengguna. Class ini menyediakan method yang digunakan untuk memastikan data yang dimasukkan sesuai dengan ketentuan program, seperti memvalidasi input angka, ID penghuni, serta mencegah kesalahan input yang dapat menyebabkan program mengalami error.
 
 ## 3.2 Inheritance
 
 <img width="547" height="180" alt="image" src="https://github.com/user-attachments/assets/82c1c009-1442-4233-9b51-645c89c9fdbf" />
 
-Penggunaan Keyword Final
+Penggunaan keyword final pada atribut idPenghuni, nama, dan jenisKelamin berfungsi untuk menjaga agar nilai dari atribut tersebut tidak dapat diubah setelah diberikan nilai awal. Penggunaan final bertujuan agar data identitas utama penghuni tetap konsisten selama objek digunakan. Setelah atribut tersebut diinisialisasi melalui constructor, nilainya tidak dapat diberikan nilai baru melalui proses pembaruan data. Dengan demikian, keyword final membantu mencegah perubahan yang tidak diinginkan terhadap data penting seperti ID penghuni, nama, dan jenis kelamin.
 
 <img width="665" height="131" alt="image" src="https://github.com/user-attachments/assets/692dfd4d-0f86-4906-ba8a-e853e41196d8" />
 
 <img width="658" height="118" alt="image" src="https://github.com/user-attachments/assets/1b85df97-69be-48e3-aaba-fc691ebea2a8" />
 
-Penggunaan Keyword Extends
+Kedua gambar di atas adalah implementasi inheritance yang ditandai dengan penggunaan keyword extends. Keyword extends digunakan untuk menunjukkan bahwa class PenghuniIntensif dan PenghuniMandiri mewarisi atribut dan method dari class PenghuniPanti sebagai superclass. Dengan demikian, kedua subclass tersebut dapat menggunakan data dan perilaku yang sudah didefinisikan pada class PenghuniPanti serta menambahkan atribut atau method khusus sesuai dengan jenis penghuninya.
 
 <img width="852" height="158" alt="image" src="https://github.com/user-attachments/assets/3dead879-1cf8-4d55-9fd1-30e32d56b9d0" />
 
 <img width="668" height="141" alt="image" src="https://github.com/user-attachments/assets/8d508149-bc15-4730-b65c-2d82eb7fb87c" />
 
-Penggunaan Keyword Super
+Kedua gambar di atas menunjukkan implementasi konsep pewarisan dari superclass ke subclass yang ditandai dengan penggunaan keyword super. Keyword super digunakan oleh subclass untuk mengakses atribut, method, atau constructor yang berasal dari superclass. Pada implementasi tersebut, subclass PenghuniIntensif dan PenghuniMandiri mewarisi atribut dan perilaku dari class PenghuniPanti, sehingga subclass dapat menggunakan kembali anggota yang dimiliki oleh superclass tanpa harus mendefinisikannya kembali. 
 
 ## 3.3 Encapsulation
 
