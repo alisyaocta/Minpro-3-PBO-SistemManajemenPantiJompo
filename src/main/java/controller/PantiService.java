@@ -5,7 +5,6 @@ import java.util.Scanner;
 import model.PenghuniIntensif;
 import model.PenghuniMandiri;
 import model.PenghuniPanti;
-import model.KunjunganKeluarga;
 import utility.InputValidasi;
 
 public class PantiService {
@@ -41,12 +40,12 @@ public class PantiService {
         System.out.println("\n====================================================");
         System.out.println("============== PILIH KATEGORI PENGHUNI =============");
         System.out.println("====================================================");
-        System.out.println("| 1. Penghuni Mandiri                               |");
-        System.out.println("| 2. Penghuni Intensif                              |");
-        System.out.println("| 3. Kembali Ke Menu Utama                          |");
+        System.out.println("| 1. Penghuni Mandiri                              |");
+        System.out.println("| 2. Penghuni Intensif                             |");
+        System.out.println("| 3. Kembali Ke Menu Utama                         |");
         System.out.println("====================================================");
 
-        int jenis = InputValidasi.bacaInt(scanner, "\nPilih Kategori (1-3): ");
+        int jenis = InputValidasi.bacaInt(scanner, "\nPilih Kategori (1-3) : ");
 
         if (!InputValidasi.validasiPilihanMenu(jenis, 3) || jenis == 3) {
             return;
@@ -55,63 +54,63 @@ public class PantiService {
         // INPUT ID PENGHUNI
         int idPenghuni;
         do {
-            idPenghuni = InputValidasi.bacaInt(scanner, "ID Penghuni Panti: ");
+            idPenghuni = InputValidasi.bacaInt(scanner, "ID Penghuni Panti : ");
         } while (!InputValidasi.validasiIdPenghuni(idPenghuni)
                 || !InputValidasi.validasiIdDuplikat(idPenghuni, this));
 
         // INPUT NAMA PENGHUNI
         String nama;
         do {
-            System.out.print("Nama Penghuni Panti: ");
+            System.out.print("Nama Penghuni Panti : ");
             nama = scanner.nextLine();
         } while (!InputValidasi.validasiNama(nama));
 
         // INPUT USIA PENGHUNI
         int usia;
         do {
-            usia = InputValidasi.bacaInt(scanner, "Usia Penghuni Panti: ");
+            usia = InputValidasi.bacaInt(scanner, "Usia Penghuni Panti : ");
         } while (!InputValidasi.validasiUsia(usia));
 
         // INPUT NOMOR TELEPON KELUARGA
         String noTelp;
         do {
-            System.out.print("Nomor Telepon Keluarga: ");
+            System.out.print("Nomor Telepon Keluarga : ");
             noTelp = scanner.nextLine();
         } while (!InputValidasi.validasiNoTelp(noTelp));
 
         // INPUT JENIS KELAMIN
         String jenisKelamin;
         do {
-            System.out.print("Jenis Kelamin: ");
+            System.out.print("Jenis Kelamin (Laki Laki/ Perempuan): ");
             jenisKelamin = scanner.nextLine();
         } while (!InputValidasi.validasiJenisKelamin(jenisKelamin));
 
         // INPUT KONDISI KESEHATAN
         String kondisi;
         do {
-            System.out.print("Kondisi Kesehatan Penghuni: ");
+            System.out.print("Kondisi Kesehatan Penghuni : ");
             kondisi = scanner.nextLine();
         } while (!InputValidasi.validasiKondisi(kondisi));
 
         // INPUT BERDASARKAN KATEGORI PENGHUNI
         if (jenis == 1) {
-            System.out.print("Hobi: ");
+            System.out.print("Hobi : ");
             String hobi = scanner.nextLine();
 
-            System.out.print("Kegiatan Harian: ");
+            System.out.print("Kegiatan Harian : ");
             String kegiatanHarian = scanner.nextLine();
 
             daftarPenghuni.add(new PenghuniMandiri(idPenghuni, nama, usia, noTelp,
                     jenisKelamin, kondisi, hobi, kegiatanHarian));
 
         } else {
-            System.out.print("Nama Perawat: ");
+            System.out.print("Nama Perawat : ");
             String namaPerawat = scanner.nextLine();
 
-            System.out.print("Jadwal Kontrol Medis: ");
+            System.out.print("Jadwal Kontrol Medis : ");
             String kontrolMedis = scanner.nextLine();
 
-            System.out.print("Jadwal Pemberian Obat: ");
+            System.out.print("Jadwal Pemberian Obat : ");
             String jadwalObat = scanner.nextLine();
 
             daftarPenghuni.add(new PenghuniIntensif(idPenghuni, nama, usia, noTelp,
@@ -133,10 +132,10 @@ public class PantiService {
         System.out.println("\n====================================================");
         System.out.println("============== PILIH KATEGORI PENGHUNI =============");
         System.out.println("====================================================");
-        System.out.println("| 1. Tampilkan Seluruh Data Penghuni                |");
-        System.out.println("| 2. Tampilkan Data Penghuni Mandiri                |");
-        System.out.println("| 3. Tampilkan Data Penghuni Intensif               |");
-        System.out.println("| 4. Kembali Ke Menu Utama                          |");
+        System.out.println("| 1. Tampilkan Seluruh Data Penghuni               |");
+        System.out.println("| 2. Tampilkan Data Penghuni Mandiri               |");
+        System.out.println("| 3. Tampilkan Data Penghuni Intensif              |");
+        System.out.println("| 4. Kembali Ke Menu Utama                         |");
         System.out.println("====================================================");
 
         int pilihan = InputValidasi.bacaInt(scanner, "\nPilih Kategori (1-4): ");
@@ -149,7 +148,7 @@ public class PantiService {
 
         System.out.println("\n====================================================");
         if (pilihan == 1) {
-            System.out.println("=========== SELURUH DATA PENGHUNI PANTI ===========");
+            System.out.println("=========== SELURUH DATA PENGHUNI PANTI ============");
         } else if (pilihan == 2) {
             System.out.println("============ DATA PENGHUNI PANTI MANDIRI ===========");
         } else {
@@ -345,6 +344,7 @@ public class PantiService {
                         System.out.println("=====================================================\n");
                     }
                 }
+
                 case 5 -> berjalan = false;
             }
         }
@@ -356,13 +356,12 @@ public class PantiService {
             tampilkanDataKosong();
             return;
         }
-
         System.out.println("\n====================================================");
         System.out.println("================ CARI DATA PENGHUNI ================");
         System.out.println("====================================================");
-        System.out.println("| 1. Cari Berdasarkan Nama                          |");
-        System.out.println("| 2. Cari Berdasarkan ID                            |");
-        System.out.println("| 3. Kembali Ke Menu Utama                          |");
+        System.out.println("| 1. Cari Berdasarkan Nama                         |");
+        System.out.println("| 2. Cari Berdasarkan ID                           |");
+        System.out.println("| 3. Kembali Ke Menu Utama                         |");
         System.out.println("====================================================");
 
         int pilihan = InputValidasi.bacaInt(scanner, "\nPilih Menu (1-3): ");
@@ -372,10 +371,10 @@ public class PantiService {
 
         if (pilihan == 1) {
             System.out.print("Masukkan Nama Penghuni Panti: ");
-            cariPenghuni(scanner.nextLine());   
+            cariPenghuni(scanner.nextLine()); 
         } else {
             int id = InputValidasi.bacaInt(scanner, "Masukkan ID Penghuni Panti: ");
-            cariPenghuni(id);               
+            cariPenghuni(id);                
         }
     }
 
@@ -399,7 +398,7 @@ public class PantiService {
         }
         System.out.println();
     }
-    
+
     // OVERLOADING
     public void cariPenghuni(int idTarget) {
         PenghuniPanti p = cariByObjekId(idTarget);
@@ -441,7 +440,6 @@ public class PantiService {
         p.prosesKunjungan(namaPengunjung.trim(), hari, jam);
     }
 
-
     private String bacaHariKunjungan() {
         while (true) {
             System.out.print("Hari Kunjungan (Senin-Minggu): ");
@@ -459,15 +457,6 @@ public class PantiService {
         }
     }
 
-    private String hitungJamSelesai(String jam, int durasiMenit) {
-        String[] bagian = jam.split(":");
-        int totalMenit = Integer.parseInt(bagian[0]) * 60
-                + Integer.parseInt(bagian[1])
-                + durasiMenit;
-        totalMenit %= 24 * 60;
-        return String.format("%02d:%02d", totalMenit / 60, totalMenit % 60);
-    }
-    
     private String bacaJamKunjungan() {
         while (true) {
             System.out.print("Jam Kunjungan (HH:mm, contoh 14:30): ");
@@ -491,6 +480,7 @@ public class PantiService {
             if (input.isEmpty()) {
                 return null;
             }
+
             try {
                 int usia = Integer.parseInt(input);
                 if (InputValidasi.validasiUsia(usia)) {
