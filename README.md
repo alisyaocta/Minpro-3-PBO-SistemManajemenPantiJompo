@@ -176,19 +176,41 @@ Pada menu Keluar, pengguna dapat memilih menu tersebut apabila telah selesai men
 
 ## 2.9 Validasi 
 
-<img width="397" height="87" alt="image" src="https://github.com/user-attachments/assets/f6de5930-2e16-4f42-92ba-ead3140f38b4" />
+<img width="376" height="51" alt="image" src="https://github.com/user-attachments/assets/326379f8-f7e9-4193-b0e8-3b6a32ac89d2" />
 
-<img width="377" height="84" alt="image" src="https://github.com/user-attachments/assets/eaa7f7e1-c0f7-48f5-af23-52cd40e0be92" />
+Gambar di atas menampilkan validasi pilihan menu. Jika pengguna memasukkan pilihan yang melebihi batas yang tersedia, sistem akan menampilkan pesan peringatan seperti pada gambar.
 
-<img width="375" height="53" alt="image" src="https://github.com/user-attachments/assets/2dd05a49-6f1a-4d67-8726-5f14f13ad6fb" />
+<img width="394" height="50" alt="image" src="https://github.com/user-attachments/assets/69834fab-c8f9-4d22-90c4-18c1a9f6b2e2" />
 
-<img width="377" height="86" alt="image" src="https://github.com/user-attachments/assets/9ff48006-10e0-4ac8-9802-359874c9c0bc" />
+Gambar di atas menampilkan validasi input ID. Pengguna tidak diperbolehkan memasukkan huruf pada atribut ID karena ID hanya dapat berupa angka.
 
-<img width="374" height="88" alt="image" src="https://github.com/user-attachments/assets/d5f875af-12fe-47f1-95df-049ff3100768" />
+<img width="395" height="51" alt="image" src="https://github.com/user-attachments/assets/06896225-93cd-4ee6-a2a7-2aa6ceef1f33" />
 
-<img width="441" height="83" alt="image" src="https://github.com/user-attachments/assets/8e8cbf15-14e8-4190-9717-72b574318935" />
+Gambar di atas menampilkan validasi ID. Jika pengguna memasukkan ID penghuni yang sudah tersimpan di dalam sistem, sistem akan menampilkan pesan peringatan, hal ini dilakukan untuk mencegah terjadinya duplikasi data.
 
-<img width="400" height="83" alt="image" src="https://github.com/user-attachments/assets/2b446dcb-e15d-4757-b38b-abf97cb10f00" />
+<img width="390" height="55" alt="image" src="https://github.com/user-attachments/assets/3cf87de6-ce53-48da-a261-50214d06b814" />
+
+Gambar di atas menampilkan validasi nama. Pengguna tidak diperbolehkan mengisi atribut nama dengan angka untuk menjaga kesesuaian format data nama.
+
+<img width="379" height="51" alt="image" src="https://github.com/user-attachments/assets/36176c43-1e0e-404c-b384-eff11d33e91c" />
+
+Gambar di atas menampilkan validasi nama. Pengguna tidak diperbolehkan mengosongkan atribut nama saat memasukkan data.
+
+<img width="374" height="49" alt="image" src="https://github.com/user-attachments/assets/a203177c-0d37-4c4f-b041-6d3f748ebbe9" />
+
+Gambar di atas menampilkan validasi usia. Pengguna tidak diperbolehkan memasukkan usia dengan angka negatif.
+
+<img width="378" height="50" alt="image" src="https://github.com/user-attachments/assets/e065ca77-4a49-4c8e-a4ea-90a7fa5062e1" />
+
+Gambar di atas menampilkan validasi nomor telepon. Pengguna tidak diperbolehkan mengisi atribut nomor telepon dengan huruf karena nomor telepon hanya dapat berupa angka.
+
+<img width="443" height="49" alt="image" src="https://github.com/user-attachments/assets/1a7d8a9c-982d-42be-8c4b-d40f473d1c34" />
+
+Gambar di atas menampilkan validasi jenis kelamin. Pengguna tidak diperbolehkan memasukkan angka pada atribut jenis kelamin.
+
+<img width="394" height="45" alt="image" src="https://github.com/user-attachments/assets/3f6ee38b-e22a-41ba-9163-3572c046de2c" />
+
+Gambar di atas menampilkan validasi kondisi kesehatan. Pengguna tidak diperbolehkan memasukkan angka pada atribut kondisi kesehatan.
 
 ---
 
