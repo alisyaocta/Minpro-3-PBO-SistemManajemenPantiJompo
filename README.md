@@ -112,25 +112,31 @@ Pada menu Update Usia, pengguna perlu memasukkan ID penghuni yang ingin diperbar
 
 <img width="389" height="150" alt="image" src="https://github.com/user-attachments/assets/6b35a9da-4209-4a99-896a-63deedb487c5" />
 
+Pada menu Update Kondisi, pengguna perlu measukkan ID penghuni yang ingin diperbarui kondisi kesehatannya. Pembaruan kondisi Kesehatan ini diperlukan untuk memastikan informasi yang tersimpan sesuai dengan kondisi terkini penghuni sehingga dapat membantu pihak panti dalam melakukan pemantauan dan pengelolaan kesehatan para lansianya.
+
 <img width="381" height="235" alt="image" src="https://github.com/user-attachments/assets/1b6c6c53-1b2b-4b3c-8ba8-26d07946cd9c" />
 
-Pada menu Update Kondisi, pengguna perlu measukkan ID penghuni yang ingin diperbarui kondisi kesehatannya. Pembaruan kondisi Kesehatan ini diperlukan untuk memastikan informasi yang tersimpan sesuai dengan kondisi terkini penghuni sehingga dapat membantu pihak panti dalam melakukan pemantauan dan pengelolaan kesehatan para lansianya.
+Gambar di atas menunjukkan hasil bahwa kondisi kesehatan penghuni panti yang terbaru telah terupdate di sistem.
 
 ### 2.4.3 Update Informasi Khusus Penghuni Intensif
 
 <img width="384" height="183" alt="image" src="https://github.com/user-attachments/assets/14f54a72-b540-4bf5-ac42-74cea2e1c25c" />
 
+Gambar di atas menunjukkan informasi yang dapat diperbarui pada data Penghuni Intensif. Pengguna dapat memilih informasi yang ingin diubah sesuai dengan kebutuhan. Jika pengguna tidak ingin memperbarui suatu informasi, pengguna cukup menekan tombol Enter untuk mempertahankan data yang sudah tersimpan sebelumnya. Dengan demikian, pengguna tidak perlu memasukkan kembali data yang tidak ingin diubah.
+
 <img width="382" height="106" alt="image" src="https://github.com/user-attachments/assets/557163c7-2238-4c02-a9ed-486bc40ae7b0" />
 
-Pada menu ini, pengguna dapat memperbarui jadwal pemberian obat dan jadwal kontrol medis. Apabila pengguna hanya ingin memperbarui jadwal kontrol medis saja, maka pengguna cukup mengetikkan kembali jadwal pemberian obat yang sama seperti sebelumnya, sehingga perubahan pada jadwal kontrol medis tetap dapat tersimpan dan ditampilkan.
+Gambar di atas menunjukkan pesan yang ditampilkan oleh sistem ketika pengguna memasukkan ID yang tidak terdaftar sebagai penghuni Intensif. Sistem akan melakukan pengecekan terhadap ID yang dimasukkan, kemudian menampilkan pesan bahwa ID tersebut bukan merupakan ID penghuni Intensif. Pesan ini membantu pengguna memastikan bahwa data yang akan diproses sesuai dengan jenis penghuni yang dipilih.
 
 ### 2.4.4 Update Informasi Khusus Penghuni Mandiri
 
 <img width="388" height="172" alt="image" src="https://github.com/user-attachments/assets/1005ec6e-e637-4579-8c82-48a95938cb7a" />
 
+Gambar di atas menunjukkan informasi yang dapat diperbarui pada data Penghuni Mandiri. Pengguna dapat memilih informasi yang ingin diubah sesuai dengan kebutuhan. Jika pengguna tidak ingin memperbarui suatu informasi, pengguna cukup menekan tombol Enter untuk mempertahankan data yang sudah tersimpan sebelumnya. Dengan demikian, pengguna tidak perlu memasukkan kembali data yang tidak ingin diubah.
+
 <img width="388" height="98" alt="image" src="https://github.com/user-attachments/assets/ff5e6a94-b6e7-449b-9c32-0db154539734" />
 
-Pada menu ini, pengguna hanya dapat memperbarui jadwal kegiatan harian penghuni mandiri.
+Gambar di atas menunjukkan pesan yang ditampilkan oleh sistem ketika pengguna memasukkan ID yang tidak terdaftar sebagai penghuni Mandiri. Sistem akan melakukan pengecekan terhadap ID yang dimasukkan, kemudian menampilkan pesan bahwa ID tersebut bukan merupakan ID penghuni Mandiri. Pesan ini membantu pengguna memastikan bahwa data yang akan diproses sesuai dengan jenis penghuni yang dipilih.
 
 ## 2.5 Menu Hapus
 
@@ -150,15 +156,17 @@ Pada menu Cari Data Penghuni, pengguna dapat mencari informasi mengenai penghuni
 
 <img width="373" height="105" alt="image" src="https://github.com/user-attachments/assets/46cb3af3-ffb1-4067-8e62-63a54c1165c0" />
 
-Gambar di atas adalah tampilan sistem jika pengguna mengetikkan nama penghuni yang tidak ada di dalam data Penghuni Panti Jompo Rumah Senja.
+Gambar di atas menunjukkan tampilan sistem ketika pengguna memasukkan nama penghuni yang tidak terdapat dalam data Penghuni Panti Jompo Rumah Senja. Sistem akan melakukan pencarian berdasarkan nama yang dimasukkan, kemudian menampilkan pesan bahwa data penghuni yang dicari tidak ditemukan. Hal ini bertujuan untuk memberikan informasi kepada pengguna bahwa nama tersebut belum tersedia atau tidak terdaftar dalam data penghuni panti.
 
 <img width="373" height="290" alt="image" src="https://github.com/user-attachments/assets/2e6e2438-de08-496f-a9df-e1709ec07254" />
 
-Dan gambar di atas adalah tampilan sistem jika pengguna mencari  nama penghuni yang ada di dalam data Penghuni Panti Jompo Rumah Senja. Jika nama yang dimasukkan ada di dalam penyimpanan sistem, sistem akan menampilkan informasi menegani penghuni dengan nama tersebut.
+Gambar di atas menunjukkan tampilan sistem ketika pengguna mencari nama penghuni yang terdapat dalam data Penghuni Panti Jompo Rumah Senja. Jika nama yang dimasukkan sesuai dengan data yang tersimpan dalam sistem, sistem akan menampilkan informasi mengenai penghuni tersebut. Dengan demikian, pengguna dapat melihat data penghuni yang ditemukan berdasarkan nama yang dicari.
 
 ## 2.7 Menu Kunjungan
 
 <img width="446" height="307" alt="image" src="https://github.com/user-attachments/assets/1e293710-2a92-4fce-bbb8-04a7a319fb88" />
+
+Gambar di atas menunjukkan menu kunjungan pada sistem manajemen Panti Jompo Rumah Senja. Pada menu tersebut, pengguna atau admin panti jompo dapat mencatat data pengunjung yang ingin menjenguk penghuni panti. Informasi yang dicatat meliputi nama penghuni yang ingin dikunjungi serta waktu kunjungan. Setelah data kunjungan dicatat, staf admin dapat memberikan arahan kepada pengunjung mengenai tempat yang diperbolehkan untuk melakukan kunjungan. Pengunjung juga dapat menemani penghuni melakukan kegiatan atau hobinya selama kunjungan berlangsung. Selain itu, staf admin perlu memberikan informasi mengenai batas waktu kunjungan agar kegiatan kunjungan dapat berlangsung sesuai dengan ketentuan yang telah ditetapkan oleh pihak panti.
 
 ## 2.8 Menu Keluar
 
@@ -194,19 +202,19 @@ MVC (Model, View, Controller) merupakan pola atau struktur dalam pembuatan proye
 
 Pada proyek Sistem Manajemen Panti Jompo Rumah Senja, penerapan MVC dibagi menjadi tiga package, yaitu:
 
-1. Package Model
+**1. Package Model**
 
 Package model berisikan class PenghuniPanti, PenghuniIntensif, PenghuniMandiri, dan interface KunjunganKeluarga. Package ini bertugas untuk merepresentasikan, menyimpan, dan mengelola data serta atribut yang berkaitan dengan penghuni panti. Class PenghuniIntensif dan PenghuniMandiri merupakan turunan dari class PenghuniPanti, sehingga dapat menerapkan konsep inheritance dalam pemrograman berorientasi objek dengan mewarisi atribut dan method dari class induknya. Sementara itu, KunjunganKeluarga digunakan sebagai interface yang mendefinisikan perilaku atau method yang berkaitan dengan kunjungan keluarga dan dapat diimplementasikan oleh class yang membutuhkan fungsi tersebut.
 
-2. Package View
+**2. Package View**
 
 Package view berisikan class PantiView yang digunakan untuk menampilkan menu utama, informasi data penghuni, hasil proses, serta pesan yang diberikan oleh sistem kepada pengguna. Dengan adanya package view, proses tampilan program dapat dipisahkan dari logika pengolahan data sehingga struktur program menjadi lebih terorganisir dan mudah dipahami.
 
-3. Package Controller
+**3. Package Controller**
 
 Package controller berisikan class PantiService yang bertugas sebagai penghubung antara bagian Model dan View, sekaligus mengatur alur proses dalam program. Class PantiService menangani berbagai operasi terhadap data penghuni, seperti menambahkan, menampilkan, memperbarui, menghapus, dan mencari data berdasarkan input yang diberikan oleh pengguna.
 
-4. Package Utility
+**4. Package Utility**
 
 Package utility berisikan class InputValidasi yang digunakan untuk membantu proses validasi input dari pengguna. Class ini menyediakan method yang digunakan untuk memastikan data yang dimasukkan sesuai dengan ketentuan program, seperti memvalidasi input angka, ID penghuni, serta mencegah kesalahan input yang dapat menyebabkan program mengalami error.
 
@@ -282,14 +290,19 @@ Baris super(idPenghuni, nama, usia, noTelp, jenisKelamin, kondisi) digunakan unt
 
 <img width="557" height="135" alt="image" src="https://github.com/user-attachments/assets/8438230e-4624-4de2-8e12-c9fa4c92840a" />
 
+Kedua gambar di atas menunjukkan implementasi dari polymorphism metode overriding. Pada kedua gambar tersebut, method tampilkanInfo() dimodifikasi oleh kelas turunan (subclass) dari PenghuniPanti, yaitu PenghuniMandiri dan PenghuniIntensif. Masing-masing subclass memiliki implementasi method tampilkanInfo() yang berbeda sesuai dengan karakteristik dan informasi tambahan dari jenis penghuni panti tersebut. Dengan demikian, method yang memiliki nama sama dapat menghasilkan keluaran yang berbeda bergantung pada objek yang memanggilnya.  
+
 ### 3.5.2 Overloading
 
 <img width="719" height="562" alt="image" src="https://github.com/user-attachments/assets/27acf0c0-e8a5-44bd-90ff-40d64d69ed57" />
+
+Gambar di atas menunjukkan proses pemanggilan method tampilkanHeaderHasil() dan tampilkanIdTidakDitemukan() sebagai implementasi dari konsep polymorphism melalui metode overloading. Pemanggilan kedua method tersebut bertujuan untuk menampilkan informasi pada hasil keluaran program agar lebih terstruktur dan mudah dipahami.
 
 <img width="659" height="94" alt="image" src="https://github.com/user-attachments/assets/e0d352f6-9173-4202-bb42-7f4689f1fbd1" />
 
 <img width="658" height="96" alt="image" src="https://github.com/user-attachments/assets/51c4441b-3c09-4d43-b263-cdb741d6981f" />
 
+Gambar di atas menunjukkan implementasi polymorphism metode overloading melalui pendefinisian method tampilkanHeaderHasil() dan tampilkanIdTidakDitemukan() di dalam kelas yang sama. Method tampilkanHeaderHasil() berfungsi untuk menampilkan header atau judul pada hasil keluaran program, sedangkan method tampilkanIdTidakDitemukan() berfungsi untuk menampilkan pesan ketika ID penghuni yang dicari tidak ditemukan.
 
 ## 3.6 Abstraction
 
@@ -297,15 +310,24 @@ Baris super(idPenghuni, nama, usia, noTelp, jenisKelamin, kondisi) digunakan unt
 
 <img width="527" height="64" alt="image" src="https://github.com/user-attachments/assets/42baeb3c-7cfb-43e9-b961-f095433d2eb7" />
 
+Gambar di atas menunjukkan penerapan konsep abstract class pada Java. Pada gambar tersebut, superclass atau kelas induk dijadikan sebagai abstract class yang berfungsi sebagai kelas dasar bagi subclass. Abstract class dapat memiliki atribut, constructor, serta method yang sudah memiliki implementasi maupun abstract method yang belum memiliki implementasi. Dengan demikian, abstract class digunakan untuk menyediakan struktur atau aturan umum yang nantinya dapat dikembangkan lebih lanjut oleh subclass.
+
 ### 3.6.2 Abstract Method
+
+<img width="373" height="64" alt="image" src="https://github.com/user-attachments/assets/1952d2be-ecc7-46b3-94db-016bc23bc8ca" />
 
 <img width="335" height="192" alt="image" src="https://github.com/user-attachments/assets/592560a2-c8bd-4baa-b345-8fb9c2a4ece4" />
 
+Kedua gambar di atas menunjukkan implementasi dari penggunaan abstract method, yaitu method getKategori() dan hitungBiayaBulanan(). Kedua method tersebut dideklarasikan sebagai abstract method sehingga tidak memiliki isi atau implementasi pada superclass. Oleh karena itu, setiap subclass yang mewarisi abstract class tersebut wajib mengimplementasikan kedua method tersebut sesuai dengan kebutuhan masing-masing subclass. Hal ini memungkinkan setiap subclass memiliki cara atau proses yang berbeda dalam menentukan kategori dan menghitung biaya bulanan.
 
 ## 3.7 Interface
 
 <img width="515" height="108" alt="image" src="https://github.com/user-attachments/assets/5d274f34-19d6-46b8-9731-8e3682b7d766" />
 
+Gambar di atas menunjukkan penerapan konsep interface pada Java. Pada gambar tersebut, interface KunjunganKeluarga berisi dua method yang belum memiliki implementasi (how-to-do), yaitu prosesKunjungan() dan getDurasiKunjunganMenit(). Kedua method tersebut berfungsi sebagai ketentuan yang harus diimplementasikan oleh kelas yang menggunakan interface tersebut.
+
 <img width="665" height="131" alt="image" src="https://github.com/user-attachments/assets/692dfd4d-0f86-4906-ba8a-e853e41196d8" />
 
 <img width="658" height="118" alt="image" src="https://github.com/user-attachments/assets/1b85df97-69be-48e3-aaba-fc691ebea2a8" />
+
+Kedua gambar di atas menunjukkan penerapan konsep interface yang ditandai dengan penggunaan keyword implements pada subclass. Penggunaan keyword tersebut menunjukkan bahwa kelas turunan mengimplementasikan interface KunjunganKeluarga, sehingga wajib menyediakan implementasi (how-to-do) untuk method prosesKunjungan() dan getDurasiKunjunganMenit() sesuai dengan kebutuhan program.
