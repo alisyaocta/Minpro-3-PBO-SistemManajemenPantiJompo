@@ -336,7 +336,7 @@ Gambar di atas menunjukkan penerapan konsep abstract class pada Java. Pada gamba
 
 ### 3.6.2 Abstract Method
 
-<img width="373" height="64" alt="image" src="https://github.com/user-attachments/assets/1952d2be-ecc7-46b3-94db-016bc23bc8ca" />
+<img width="614" height="74" alt="image" src="https://github.com/user-attachments/assets/ef146bf2-9f7b-4798-a4fb-023ce0daf129" />
 
 <img width="335" height="192" alt="image" src="https://github.com/user-attachments/assets/592560a2-c8bd-4baa-b345-8fb9c2a4ece4" />
 
