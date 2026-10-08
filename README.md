@@ -20,7 +20,7 @@ Fitur utama yang tersedia dalam program meliputi **menambahkan data, menampilkan
 
 Dalam program ini, penghuni panti dibedakan menjadi dua kategori, yaitu **Penghuni Intensif** dan **Penghuni Mandiri**. Penghuni Intensif merupakan penghuni yang membutuhkan pemantauan dan perawatan lebih lanjut, sehingga memiliki informasi tambahan seperti **nama perawat, jadwal kontrol medis, dan jadwal pemberian obat**. Sementara itu, Penghuni Mandiri merupakan penghuni yang masih dapat melakukan aktivitas sehari-hari secara lebih mandiri dan memiliki informasi tambahan berupa **hobi serta kegiatan harian**.
 
-Dalam pembuatannya, program ini menerapkan beberapa konsep **Object-Oriented Programming (OOP)**, yaitu **enkapsulasi, inheritance, dan polymorphism**. Selain itu, struktur program menggunakan pola **Model-View-Controller (MVC)** untuk memisahkan pengelolaan data, interaksi pengguna, dan pengendalian alur program. Penerapan konsep-konsep tersebut bertujuan agar program memiliki struktur yang lebih terorganisir serta memudahkan proses pengembangan dan pemeliharaan kode.
+Dalam pembuatannya, program ini menerapkan beberapa konsep **Object-Oriented Programming (OOP)**, yaitu **enkapsulasi, inheritance, polymorphism, abstraction, dan interface**. Selain itu, struktur program menggunakan pola **Model-View-Controller (MVC)** untuk memisahkan pengelolaan data, interaksi pengguna, dan pengendalian alur program. Penerapan konsep-konsep tersebut bertujuan agar program memiliki struktur yang lebih terorganisir serta memudahkan proses pengembangan dan pemeliharaan kode.
 
 
 ## 1.2	Tujuan
