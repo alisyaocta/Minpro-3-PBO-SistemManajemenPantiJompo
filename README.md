@@ -106,7 +106,7 @@ Pada menu Update Data, pengguna dapat memilih informasi yang ingin diperbarui. S
 
 <img width="392" height="169" alt="image" src="https://github.com/user-attachments/assets/c27dabe8-5c10-4626-a3a9-68874e48b821" />
 
-Pada menu Update Usia, pengguna perlu memasukkan ID penghuni yang ingin diperbarui usianya. Setelah ID penghuni ditemukan, pengguna dapat memasukkan usia terbaru penghuni tersebut. Kemudian sistem akan memperbarui data usia sesuai dengan input yang diberikan.
+Pada menu Update Usia, pengguna perlu memasukkan ID penghuni yang ingin diperbarui usianya. Setelah ID penghuni ditemukan, pengguna dapat memasukkan usia terbaru penghuni tersebut. Kemudian sistem akan memperbarui data usia sesuai dengan input yang diberikan. Jika pengguna tidak ingin memperbarui usia penghuni, pengguna cukup menekan enter untuk melewati perbaruan itu.
 
 ### 2.4.2 Update Kondisi Penghuni
 
@@ -114,11 +114,15 @@ Pada menu Update Usia, pengguna perlu memasukkan ID penghuni yang ingin diperbar
 
 <img width="381" height="235" alt="image" src="https://github.com/user-attachments/assets/1b6c6c53-1b2b-4b3c-8ba8-26d07946cd9c" />
 
+Pada menu Update Kondisi, pengguna perlu measukkan ID penghuni yang ingin diperbarui kondisi kesehatannya. Pembaruan kondisi Kesehatan ini diperlukan untuk memastikan informasi yang tersimpan sesuai dengan kondisi terkini penghuni sehingga dapat membantu pihak panti dalam melakukan pemantauan dan pengelolaan kesehatan para lansianya.
+
 ### 2.4.3 Update Informasi Khusus Penghuni Intensif
 
 <img width="384" height="183" alt="image" src="https://github.com/user-attachments/assets/14f54a72-b540-4bf5-ac42-74cea2e1c25c" />
 
 <img width="382" height="106" alt="image" src="https://github.com/user-attachments/assets/557163c7-2238-4c02-a9ed-486bc40ae7b0" />
+
+Pada menu ini, pengguna dapat memperbarui jadwal pemberian obat dan jadwal kontrol medis. Apabila pengguna hanya ingin memperbarui jadwal kontrol medis saja, maka pengguna cukup mengetikkan kembali jadwal pemberian obat yang sama seperti sebelumnya, sehingga perubahan pada jadwal kontrol medis tetap dapat tersimpan dan ditampilkan.
 
 ### 2.4.4 Update Informasi Khusus Penghuni Mandiri
 
@@ -126,19 +130,31 @@ Pada menu Update Usia, pengguna perlu memasukkan ID penghuni yang ingin diperbar
 
 <img width="388" height="98" alt="image" src="https://github.com/user-attachments/assets/ff5e6a94-b6e7-449b-9c32-0db154539734" />
 
+Pada menu ini, pengguna hanya dapat memperbarui jadwal kegiatan harian penghuni mandiri.
+
 ## 2.5 Menu Hapus
 
 <img width="372" height="105" alt="image" src="https://github.com/user-attachments/assets/f47acd73-988f-4b37-833c-8772dadcdae0" />
 
+Pada menu Hapus Data, pengguna dapat menghapus data penghuni dengan memasukkan ID penghuni yang ingin dihapus. Sistem nantinya akan mencari data berdasarkan ID yang dimasukkan, kemudian menghapus data penghuni tersebut dari daftar aspabila ID ditemukan.
+
 <img width="372" height="105" alt="image" src="https://github.com/user-attachments/assets/a6eaf2e0-ecba-46b5-a710-5c63f51f86c5" />
+
+Gambar di atas merupakan tampilan ketika pengguna mencari penghuni dengan nama tersebut yang sebelumya sudah dihapus, sistem pasti akan menampilkan pesan bahwa pasien dengan nama tersebut tidak ditemukan.
 
 ## 2.6 Menu Cari
 
-<img width="373" height="290" alt="image" src="https://github.com/user-attachments/assets/2e6e2438-de08-496f-a9df-e1709ec07254" />
+<img width="373" height="152" alt="image" src="https://github.com/user-attachments/assets/55f8349c-f76f-4767-9e5f-a9bc7e3243a3" />
+
+Pada menu Cari Data Penghuni, pengguna dapat mencari informasi mengenai penghuni panti jompo dengan memasukkan ID atau nama penghuni.
 
 <img width="373" height="105" alt="image" src="https://github.com/user-attachments/assets/46cb3af3-ffb1-4067-8e62-63a54c1165c0" />
 
-<img width="373" height="152" alt="image" src="https://github.com/user-attachments/assets/55f8349c-f76f-4767-9e5f-a9bc7e3243a3" />
+Gambar di atas adalah tampilan sistem jika pengguna mengetikkan nama penghuni yang tidak ada di dalam data Penghuni Panti Jompo Rumah Senja.
+
+<img width="373" height="290" alt="image" src="https://github.com/user-attachments/assets/2e6e2438-de08-496f-a9df-e1709ec07254" />
+
+Dan gambar di atas adalah tampilan sistem jika pengguna mencari  nama penghuni yang ada di dalam data Penghuni Panti Jompo Rumah Senja. Jika nama yang dimasukkan ada di dalam penyimpanan sistem, sistem akan menampilkan informasi menegani penghuni dengan nama tersebut.
 
 ## 2.7 Menu Kunjungan
 
@@ -147,6 +163,8 @@ Pada menu Update Usia, pengguna perlu memasukkan ID penghuni yang ingin diperbar
 ## 2.8 Menu Keluar
 
 <img width="379" height="91" alt="image" src="https://github.com/user-attachments/assets/fce26b07-c0b1-403a-bf33-2f34ff406212" />
+
+Pada menu Keluar, pengguna dapat memilih menu tersebut apabila telah selesai menggunakan sistem. Setelah menu dipilih, program akan menghentikan seluruh proses dan keluar dari sistem sehingga pengguna tidak dapat melakukan pengelolaan data lagi sampai program dijalankan kembali.
 
 ## 2.9 Validasi 
 
@@ -212,20 +230,49 @@ Kedua gambar di atas menunjukkan implementasi konsep pewarisan dari superclass k
 
 ## 3.3 Encapsulation
 
+**1. Penghuni Panti**
+
 <img width="544" height="204" alt="image" src="https://github.com/user-attachments/assets/8f4093ed-7dcc-42dc-9bbb-13f157a68af9" />
+
+Gambar di atas menampilkan penggunaan konsep enkapsulasi pada class PenghuniPanti. Atribut pada class PenghuniPanti diatur menggunakan access modifier private. Penggunaan access private bertujuan untuk membatasi akses langsung dari luar class sehingga nilai atribut tidak dapat dimodifikasi secara langsung dan sembarangan.
+
+Dengan menerapkan enkapsulasi, perubahan dan pengambilan data penghuni dilakukan melalui method yang telah disediakan oleh class. Hal ini membantu menjaga data agar lebih terkontrol dan sesuai dengan aturan yang telah ditentukan dalam program.
+
+**2. Penghuni Intensif**
 
 <img width="646" height="204" alt="image" src="https://github.com/user-attachments/assets/7776224b-966f-4f86-b880-ce2b9f1da5bd" />
 
+Gambar di atas menampilkan penggunaan konsep enkapsulasi pada class PenghuniIntensif. Atribut pada class PenghuniIntensif diatur menggunakan access modifier private. Penggunaan access private bertujuan untuk membatasi akses langsung dari luar class sehingga nilai atribut tidak dapat dimodifikasi secara langsung dan sembarangan.
+
+**3. Penghuni Mandiri**
+
 <img width="654" height="182" alt="image" src="https://github.com/user-attachments/assets/25f82de3-4565-42ec-8b93-cb45e59749f7" />
+
+Gambar di atas menampilkan penggunaan konsep enkapsulasi pada class PenghuniMandiri. Atribut pada class PenghuniMandiri diatur menggunakan access modifier private. Penggunaan access private bertujuan untuk membatasi akses langsung dari luar class sehingga nilai atribut tidak dapat dimodifikasi secara langsung dan sembarangan.
 
 ## 3.4 Constructor
 
+**1. Prnghuni Panti**
+
 <img width="601" height="185" alt="image" src="https://github.com/user-attachments/assets/2637d8ea-2890-4f2b-8677-8db478a6188c" />
+
+Class PenghuniPanti menggunakan constructor untuk menginisialisasi nilai atribut ketika sebuah objek penghuni dibuat. Melalui constructor ini, data awal seperti ID, nama, usia, nomor telepon, jenis kelamin, dan kondisi kesehatan penghuni dapat langsung diberikan pada saat objek dibentuk, sehingga setiap objek PenghuniPanti yang dibuat sudah memiliki data lengkap tanpa perlu proses inisialisasi tambahan setelahnya.
+
+**2. Penghuni Intensif**
 
 <img width="852" height="158" alt="image" src="https://github.com/user-attachments/assets/3dead879-1cf8-4d55-9fd1-30e32d56b9d0" />
 
+Gambar di atas menampilkan constructor dari kelas PenghuniIntensif, yang merupakan subclass dari kelas PenghuniPanti. Constructor ini menerima parameter data umum penghuni (idPenghuni, nama, usia, noTelp, jenisKelamin, kondisi) serta parameter khusus tambahan yang hanya dimiliki oleh penghuni intensif, yaitu namaPerawat, kontrolMedis, dan jadwalObat.
+
+Baris super(idPenghuni, nama, usia, noTelp, jenisKelamin, kondisi) digunakan untuk memanggil constructor dari kelas induk (PenghuniPanti) agar atribut-atribut umum tersebut diinisialisasi oleh constructor kelas induknya, sehingga tidak perlu ditulis ulang di kelas anak. Setelah itu, ketiga atribut tambahan (namaPerawat, kontrolMedis, jadwalObat) diinisialisasi secara langsung menggunakan this, karena atribut-atribut tersebut memang khusus dimiliki oleh kelas PenghuniIntensif dan tidak ada di kelas induknya.
+
+**3. Penghuni Mandiri**
+
 <img width="668" height="141" alt="image" src="https://github.com/user-attachments/assets/8d508149-bc15-4730-b65c-2d82eb7fb87c" />
 
+Gambar di atas menampilkan constructor dari kelas PenghuniIntensif, yang merupakan subclass dari kelas PenghuniPanti. Constructor ini menerima parameter data umum penghuni (idPenghuni, nama, usia, noTelp, jenisKelamin, kondisi) serta parameter khusus tambahan yang hanya dimiliki oleh penghuni intensif, yaitu hobi dan kegiatanHarian.
+
+Baris super(idPenghuni, nama, usia, noTelp, jenisKelamin, kondisi) digunakan untuk memanggil constructor dari kelas induk (PenghuniPanti) agar atribut-atribut umum tersebut diinisialisasi oleh constructor kelas induknya, sehingga tidak perlu ditulis ulang di kelas anak. Setelah itu, kedua atribut tambahan (hobi dan kegiatanHarian) diinisialisasi secara langsung menggunakan this, karena atribut-atribut tersebut memang khusus dimiliki oleh kelas PenghuniMandiri dan tidak ada di kelas induknya.
 
 ## 3.5 Polymorphism
 
