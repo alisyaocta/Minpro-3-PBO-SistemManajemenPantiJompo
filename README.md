@@ -338,7 +338,7 @@ Gambar di atas menunjukkan penerapan konsep abstract class pada Java. Pada gamba
 
 <img width="614" height="74" alt="image" src="https://github.com/user-attachments/assets/ef146bf2-9f7b-4798-a4fb-023ce0daf129" />
 
-<img width="335" height="192" alt="image" src="https://github.com/user-attachments/assets/592560a2-c8bd-4baa-b345-8fb9c2a4ece4" />
+<img width="638" height="198" alt="image" src="https://github.com/user-attachments/assets/4f206fed-3bac-4b5e-a22b-ae4726f886a1" />
 
 Kedua gambar di atas menunjukkan implementasi dari penggunaan abstract method, yaitu method getKategori() dan hitungBiayaBulanan(). Kedua method tersebut dideklarasikan sebagai abstract method sehingga tidak memiliki isi atau implementasi pada superclass. Oleh karena itu, setiap subclass yang mewarisi abstract class tersebut wajib mengimplementasikan kedua method tersebut sesuai dengan kebutuhan masing-masing subclass. Hal ini memungkinkan setiap subclass memiliki cara atau proses yang berbeda dalam menentukan kategori dan menghitung biaya bulanan.
 
